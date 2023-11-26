@@ -1,6 +1,7 @@
 @ECHO OFF
 sc config LenovoVantageService start=demand
 sc config LITSSVC start=demand
+::sc config LenovoFnAndFunctionKeys start=auto
 ::sc config LenovoFnAndFunctionKeys start=demand
 sc config ImControllerService start=demand
 echo.
